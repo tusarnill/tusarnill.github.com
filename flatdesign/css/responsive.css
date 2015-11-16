@@ -1,0 +1,274 @@
+/**********************************************/
+	   /*  Responsive/adaptive stuff */
+/**********************************************/
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 980px){
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 14px;
+}
+.setting {
+  top: 4px;
+}
+.me {
+  position: relative;
+  top: 7px;
+}
+#no-padd {
+  padding: 14px 10px 10px !important;
+}
+.picbig {
+  left: -62px;
+  top: 51px;
+}
+.navbar-right {
+  float: left !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  padding-bottom: 29px !important;
+}
+.navbar-nav > li > a {
+  line-height: 16px!important;
+}
+
+#list-stats li:last-child {
+  width: 23.99%;
+  margin-right: 0;
+}
+
+
+
+
+/*=====================*/
+.line-chart-blog {
+  margin-top: -31% !important;
+}
+.hathaway {
+  margin-top: -86px !important;
+}
+.twit-news-update {
+  margin-top: -60% !important;
+}
+.mail-chimp {
+  margin-top: -19% !important;
+}
+.progress-bar-item {
+  margin-top: -59% !important;
+}
+.datepicker-calendar {
+  margin-top: -87% !important;
+}
+
+
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+
+
+
+
+}
+
+@media only screen and (min-width: 768px){
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 12px !important;
+}
+.setting {
+  top: 4px;
+}
+.me {
+  position: relative;
+  top: 9px;
+}
+#no-padd {
+  padding: 14px 10px 10px !important;
+}
+.picbig {
+  left: -62px;
+  top: 51px;
+}
+.navbar-right {
+  float: right !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  padding-bottom: 29px !important;
+}
+.navbar-nav > li > a {
+  line-height: 16px!important;
+}
+
+#list-stats li:last-child {
+  width: 23.97%;
+  margin-right: 0;
+}
+
+
+
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 12px !important;
+}
+.setting {
+  top: 4px;
+}
+.me {
+  position: relative;
+  top: 7px;
+}
+#no-padd {
+  padding: 14px 10px 10px !important;
+}
+.picbig {
+  left: -62px;
+  top: 51px;
+}
+.navbar-right {
+  float: left !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  padding-bottom: 29px !important;
+}
+.navbar-nav > li > a {
+  line-height: 16px!important;
+}
+
+#list-stats li:last-child {
+  width: 23.99%;
+  margin-right: 0;
+}
+
+
+
+
+/*=====================*/
+.line-chart-blog {
+  margin-top: -31% !important;
+}
+.hathaway {
+  margin-top: -25% !important;
+}
+.twit-news-update {
+  margin-top: -60% !important;
+}
+.mail-chimp {
+  margin-top: -19% !important;
+}
+.progress-bar-item {
+  margin-top: -59% !important;
+}
+.datepicker-calendar {
+  margin-top: -87% !important;
+}
+
+
+}
+
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+#list-stats li:last-child {
+  width: 23.99% !important;
+  margin-right: 0;
+}
+.monthe {
+  width: 62%!important;
+}
+.navbar-right {
+	float: left !important;
+}
+.hd-profile {
+  left: 1%;
+  top: 0;
+}
+.picbig {
+  left: 81%;
+  top: -40%;
+}
+#jone {
+	margin: 25% 0 0 6%;
+}
+.op {
+	left: 34%;
+	top: 12px;
+}
+
+#list-stats li:last-child {
+	width: 24.3% !important;
+	margin-right: 0;
+}
+.subscribe input[type="email"], .sign-in input[type="email"], .sign-in input[type="password"] {
+	padding: 10px 4px 10px 88px;
+}
+
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 14px !important;
+}
+.hd-nav {
+  margin: 0 auto;
+  padding: 0;
+  width: 91%;
+}
+#list-stats li:last-child {
+  margin-right: 0;
+  width: 23.9%;
+}
+.navbar-right {
+	float: left !important;
+	margin-left: 3%;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+	font-size: 12px;
+}
+.op {
+  right: 26%;
+  top: 11px;
+}
+.dropdown {
+  margin: 0 auto;
+  width: 80%;
+}
+.hd-profile {
+  left: 10%;
+  top: 0;
+}
+.picbig {
+  left: 91% !important;
+  top: -28%;
+}
+.dropdown-menu {
+  background-color: #50597B !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  padding-bottom: 8px;
+}
+.me {
+  width: 80px;
+}
+
+
+}

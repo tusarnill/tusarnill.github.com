@@ -1,0 +1,1637 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+========================================================================== */
+
+
+
+
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+/*-------------------- Custom CSS --------------------*/
+   
+body{
+	font-family:'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration:none;
+}
+img{
+	max-width:100%;
+}
+.alignleft{
+	float:left;
+	margin-right:15px;
+}
+.alignright{
+	float:right;
+	margin-left:15px;
+}
+.aligncenter{
+	float:none;
+	margin:0 auto;
+}
+
+.bg {
+  background: url("../image/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100%;
+  padding: 2% 0;
+}
+
+/* ======== Hd Nav-Style  ======== */
+.hd-header{
+    margin-bottom: 20px;
+}
+.hd-menu{}
+.hd-nav{}
+.hd-nav li{}
+.hd-nav li a{}
+.navbar-nav li a:hover{
+    color: #fff;
+    background: url("../image/active.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.hd-nav li a:hover{}
+.word {
+  color: #fff;
+  font-size: 19px;
+  position: relative;
+  top: 9px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.setting {
+  color: #9099B7;
+  font-size: 25px;
+  line-height: 25px;
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+}
+.spp{
+    position: relative;
+}
+.op {
+  background: none repeat scroll 0 0 #e64c65;
+  border-radius: 50%;
+  font-size: 11px;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  right: 4%;
+  text-align: center;
+  top: 22px;
+  width: 15px;
+}
+
+.hd-fog{}
+.dropdown{}
+a.dropdown-toggle{}
+.dropdown a{}
+
+.hd-doom{}
+.hd-doom li{}
+.hd-doom li a{}
+#no-padd {
+  padding: 10px !important;
+}
+.hd-profile {
+  border: 3px solid #50597b;
+  position: relative;
+}
+.hd-profile:hover + .picbig{
+    display: block;
+}
+.picbig{
+    display: none;
+    border: 3px solid #50597b;
+    position: absolute;
+    z-index: 100;
+    left: -60px;
+    top: 46px;
+}
+.picbig:hover{
+    display: block;
+}
+.me {
+  position: relative;
+  top: 5px;
+}
+.navbar-right {
+  float: right !important;
+}
+
+/*===== Section Container Tree-Part-3 Style =====*/
+
+/*===== Part-1, Part-2, Part-3 Common Class Style =====*/
+
+.single-item-part-1, .single-item-part-2, .single-item-part-3 {
+  margin-bottom: 25px;
+}
+
+/*===== Part-1 =====*/
+
+/*===== Pane-part-1 Style =====*/
+
+.pane-part-1{}
+.pane-heading h2 {
+  background: none repeat scroll 0 0 #11a8ab;
+  color: #ffffff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.panel-group .panel {
+  border-radius: 0 !important;
+  margin-bottom: -4px !important;
+}
+.panel-heading {
+  padding: 16px 15px !important;
+}
+.panel-default {
+  border: none!important;
+}
+
+.part-1-icon {
+  color: #fff;
+  padding-right: 15px;
+}
+#dot {
+  background:#e64c65 !important;
+  box-shadow: none;
+}
+.panel-title > a {
+  outline: medium none;
+  text-decoration: none;
+}
+.effect:hover{
+    background-color: #50597B;
+}
+.effect:hover .part-1-badge{
+    background: #e64c65!important;
+}
+#headingTwo {
+  background-color: #50597B!important;
+}
+.part-1-badge {
+  background: none repeat scroll 0 0 #50597b !important;
+  color: #fff;
+  float: right;
+}
+#message {
+  color: tomato;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+#message li{}
+#message a{
+    padding: 5px 4px;
+    font-family: "Ubuntu Condensed",sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+#message li a:hover{}
+
+/*===== Diagram Style =====*/
+
+.diagram-stats {
+  background: none repeat scroll 0 0 #394264;
+  padding-top: 30px;
+}
+.diagram-heading {
+  margin-bottom: 35px;
+  margin-top: 10px;
+  text-align: center;
+}
+.diagram-heading h2 {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  margin: 0;
+}
+.diagram {
+  background: none repeat scroll 0 0 #394264;
+  height: 200px;
+  margin: 0 auto 54px;
+  padding: 42px 45px 50px;
+  position: relative;
+  width: 200px;
+}
+.dose {
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#fact-1 {
+  clip: rect(0px, 206px, 99px, 99px);
+  transform: rotate(-95deg);
+  z-index: 100;
+}
+#fact-1 #lool {
+  background-color: #fcb150;
+  transform: rotate(76deg);
+}
+#fact-2 {
+  border-radius: 50%;
+  clip: rect(99px, 203px, 204px, 96px);
+  transform: rotate(-118deg);
+  z-index: 100;
+}
+#fact-2 #lool {
+  background-color: #e64c65;
+  transform: rotate(140deg);
+}
+#fact-3 {
+  clip: rect(0px, 202px, 200px, 115px);
+  transform: rotate(38deg);
+  z-index: 101;
+}
+#fact-3 #lool {
+  background-color: #11a8ab;
+  transform: rotate(113deg);
+}
+#fact-4 {
+  clip: rect(-1px, 200px, 98px, 74px);
+  transform: rotate(-138deg);
+  z-index: 100;
+}
+#fact-4 #lool {
+  background-color: #4fc4f6;
+  transform: rotate(32deg);
+}
+#lool {
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#lul{}
+#center {
+  background: none repeat scroll 0 0 #394264;
+  border-radius: 50%;
+  height: 70%;
+  left: 15%;
+  position: absolute;
+  top: 15%;
+  width: 70%;
+  z-index: 1000;
+}
+#center p {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 31px;
+  left: 0;
+  line-height: 31px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 28%;
+}
+.years {
+  color: #dbdbdb;
+  font-size: 29px;
+  font-weight: 100;
+}
+.stats {
+  display: block;
+  overflow: hidden;
+}
+#list-stats {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#list-stats li {
+  background: none repeat scroll 0 0 #50597b;
+  float: left;
+  margin-right: 1px;
+  text-align: center;
+  width: 25%;
+}
+#list-stats li:last-child {
+  margin-right: 0;
+  width: 23.89%;
+}
+.device {
+  color: #d5d5d5;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-left: 27%;
+  padding-top: 10px;
+  text-align: left;
+}
+.percent {
+  color: #fff;
+  font-size: 26px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Ubuntu Condensed",sans-serif;
+}
+.ios {
+  border-top: 4px solid #E64C65;
+}
+.mac {
+  border-top: 4px solid #11a8ab;
+}
+.linux{
+    border-top: 4px solid #FCB150;
+}
+.win{
+    border-top: 4px solid #4FC4F6;
+}
+.percent sup{}
+
+/*===== Line-Chart Style  =====*/
+.line-chart-blog {
+  background: none repeat scroll 0 0 #394264;
+  margin-top: 0 !important;
+  
+}
+.line-chart {
+  background: none repeat scroll 0 0 #11a8ab;
+}
+.locker {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px 20px;
+}
+#line {
+  display: block;
+  height: 80%;
+  left: 0;
+  list-style: outside none none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#line li {
+  border-top: 1px solid #aaa;
+  left: 14%;
+  position: relative;
+  top: 30%;
+  width: 80%;
+}
+[data-ejey]::before {
+  color: #fff;
+  content: attr(data-ejeY);
+  display: inline-block;
+  left: -10%;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  top: -14px;
+  width: 20px;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+#jone {
+  list-style: outside none none;
+  margin: 46% 0 0 6%;
+  padding: 15px;
+}
+#jone li {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10%;
+}
+#jone > li:last-child {
+  margin-right: 0;
+}
+.lenth {
+  border-top: 2px solid #fff;
+  position: absolute;
+}
+.start-1 {
+  left: 15%;
+  top: 52%;
+  transform: rotate(-41deg);
+  width: 40px;
+}
+
+.start-2 {
+  left: 32px;
+  top: 9px;
+  transform: rotate(73deg);
+  width: 24px;
+}
+
+.start-3 {
+  left: 9px;
+  top: -21px;
+  transform: rotate(-73deg);
+  width: 40px;
+}
+.start-4 {
+  left: 35px;
+  top: 7px;
+  transform: rotate(51deg);
+  width: 23px;
+}
+.start-5 {
+  left: 13px;
+  top: -17px;
+  transform: rotate(-62deg);
+  width: 34px;
+}
+.lenth.start-6::after {
+  background: url("../image/28.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  height: 30px;
+  left: 7px;
+  position: absolute;
+  top: -31px;
+  transform: rotate(35deg);
+  width: 45px;
+}
+.start-6 {
+  left: 33px;
+  top: 1px;
+  transform: rotate(17deg);
+  width: 19px;
+}
+.lenth.start-7::before {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  left: -1px;
+  position: absolute;
+  top: -5px;
+  width: 7px;
+}
+.start-7 {
+  left: 9px;
+  top: 13px;
+  transform: rotate(61deg);
+  width: 38px;
+}
+.start-8 {
+  left: 35px;
+  top: -10px;
+  transform: rotate(-26deg);
+  width: 38px;
+}
+
+.monthe {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  padding: 26px 0 0;
+}
+#monthe-btn {
+  list-style: outside none none;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+#monthe-btn li {
+float: left;
+margin: 0;
+width: 30%;
+margin-right: 3%;
+}
+#monthe-btn button {
+  border: medium none;
+  color: #fff;
+  font-size: 16px;
+  height: 33px;
+  width: 72px;
+}
+#mbtn1{
+    background: #50597B;
+}
+#mbtn2{
+    background: #E64C65;
+}
+
+
+.timee {
+  display: block;
+  overflow: hidden;
+  padding: 25px 20px;
+}
+#date-time {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#date-time li{}
+.at {
+  color: #fff;
+  float: left;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 19px;
+  line-height: 29px;
+  margin: 0;
+  width: 60%;
+}
+.temp {
+  color: #fff;
+  float: right;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+  padding-right: 1%;
+  text-align: right;
+  width: 40%;
+  font-family: "Ubuntu Condensed",sans-serif;
+}
+.yr {
+  color: #c5ced7;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.plus {
+  color: #e64c65;
+  font-size: 21px;
+}
+
+/*===== Video Style =====*/
+
+.video-frame{}
+.youtube{}
+.utune{}
+
+/*===== Social-media-size style =====*/
+
+.social-media-size {
+  background: none repeat scroll 0 0 #394264;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+#media-size {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#media-size li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+#media-size li p {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+}
+.icone {
+  padding: 40% 25%;
+  font-size: 20px!important;
+}
+.byte {
+  padding: 6% 10% 10%;
+}
+.fcb{
+    background: #3468AF;
+}
+.fcbk {
+  background: #1A4E95;
+}
+.twt{
+    background: #4FC4F6;
+}
+.twtk{
+    background: #35AADC;
+}
+.gplus{
+    background: #E64C65;
+}
+.gplusk{
+    background: #CC324B;
+}
+.msg{
+    background: #50597B;
+}
+.msgk {
+  background: #394264;
+}
+
+/*===== Part-2 =====*/
+
+/*===== Hathaway Style =====*/
+
+.hathaway{
+    background: #394264;
+    margin-top: 0 !important;
+}
+.hathaway-1 {
+  display: block;
+  overflow: hidden;
+  padding: 43px 0 30px;
+  position: relative;
+  text-align: center;
+}
+.plus-control {
+  border: 1px solid #1F2551;
+  border-radius: 100%;
+  color: #bbbbbb;
+  content: "";
+  font-size: 20px;
+  height: 20px;
+  line-height: 18px;
+  padding: 0 0 0 1px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+.plus-control:hover {
+  background:#50597B;
+  color: #E64C65;
+  border-color: #1F2551;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.open:hover{
+    color:#fff;
+    background: #50597B;
+}
+.hathaway-1 img {
+  border: 5px solid #50597b;
+  border-radius: 100%;
+  height: 165px;
+  opacity: 0.9;
+  width: 165px;
+  -moz-transition: opacity 0.3s linear 0s;
+  -ms-transition: opacity 0.3s linear 0s;
+  -o-transition: opacity 0.3s linear 0s;
+  -webkit-transition: opacity 0.3s linear 0s;
+  transition: opacity 0.3s linear 0s;
+}
+.hathaway-1 img:hover{
+    opacity: 1;
+    -moz-transition: opacity 0.3s linear 0s;
+  -ms-transition: opacity 0.3s linear 0s;
+  -o-transition: opacity 0.3s linear 0s;
+  -webkit-transition: opacity 0.3s linear 0s;
+  transition: opacity 0.3s linear 0s;
+
+}
+.hathaway-1 h3 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 23px;
+  font-family: "Ubuntu Condensed",sans-serif;
+}
+.hathaway-1 p {
+  color: #C6C6C6;
+  font-size: 16px;
+  line-height: 17px;
+  font-family: "Ubuntu Condensed",sans-serif;
+  margin-bottom: 0;
+}
+.hathaway-2 {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.hathaway-2{}
+#target {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#target li {
+  float: left;
+  border-right: 1px solid #535353;
+  width: 33.33%;
+}
+#target li:last-child {
+  border-right: none;
+}
+#target li a {
+  background: none repeat scroll 0 0 #50597b;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  height: 58px;
+  line-height: 58px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  outline: none;
+}
+#target li a:hover{}
+.way {
+  padding: 0 14px 0 0px;
+  position: relative;
+  top: 3px;
+}
+.red {
+    border-top: 3px solid #E64C65;
+}
+.aqua{
+    border-top: 3px solid #11A8AB;
+}
+.orange{
+    border-top: 3px solid #FCB150;
+}
+
+/*===== Weather-shape-bar Style =====*/
+
+.weather-shape-bar{}
+.weather-menu-bar{}
+.highlight-header {
+  background: none repeat scroll 0 0 #cc324b;
+  padding: 22px 47px 15px;
+  text-align: center;
+}
+.markmp {
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+  margin-right: 10px;
+}
+.highlight-header h2 {
+  color: #fff;
+  font-size: 21px;
+  line-height: 31px;
+  margin: 0;
+  font-family: "Ubuntu Condensed",sans-serif;
+}
+.highlight h2 span{}
+
+.temparature {
+  background: none repeat scroll 0 0 #e64c65;
+  display: block;
+  overflow: hidden;
+  padding: 6% 7% 3%;
+}
+.temparature p {
+  color: #fff;
+  float: left;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  padding-left: 14%;
+  text-align: left;
+  width: 50%;
+}
+.in {
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.tempar {
+  font-size: 76px;
+  letter-spacing: 5px;
+  line-height: 82px;
+}
+.megh {
+  float: left;
+  font-size: 70px;
+  height: 100%;
+  line-height: 10%;
+  width: 50%;
+}
+.megh img {
+  height: 95px;
+  margin-left: 5%;
+  width: 80%;
+  margin-top: 8%;
+}
+
+.day-date {
+  display: block;
+  overflow: hidden;
+}
+#chat-list {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#chat-list li {
+  border-bottom: 1px solid;
+  display: block;
+  overflow: hidden;
+}
+#chat-list > li:last-child {
+  border-bottom: medium none;
+}
+#chat-list li a {
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  padding: 2% 5%;
+  width: 100%;
+  background: none repeat scroll 0 0 #394264;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+#factive{
+    background: #50597B!important;
+}
+#chat-list li a:hover{
+  background: #50597B;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+#chat-list li a:hover .on, #factive .on{
+  color: #E64C65;
+  -webkit-transition: color 0.1s linear 0s;
+  -moz-transition: color 0.1s linear 0s;
+  -ms-transition: color 0.1s linear 0s;
+  -o-transition: color 0.1s linear 0s;
+  transition: color 0.1s linear 0s;
+}
+
+.on {
+  color: #fff;
+  float: left;
+  font-size: 15px;
+  line-height: 36px;
+  margin: 0;
+  width: 60%;
+}
+.onat {
+  letter-spacing: 1px;
+}
+.dmth {
+  color: #959596;
+  letter-spacing: 1px;
+  padding-left: 3px;
+}
+.is {
+  float: right;
+  text-align: right;
+  width: 40%;
+  color: #fff;
+  font-size: 17px;
+  line-height: 34px;
+  margin: 0;
+}
+.is img {
+  position: relative;
+  top: -3px;
+}
+
+/*===== Twit-news-update Style =====*/
+
+.twit-news-update{
+    margin-top: 0 !important;
+}
+.twit-news{}
+.head-twit {
+  background: none repeat scroll 0 0 #35aadc;
+  display: block;
+  overflow: hidden;
+  padding: 5%;
+  text-align: center;
+}
+.head-twit h2 {
+  color: #fff;
+  font-size: 23px;
+  line-height: 23px;
+  margin: 0;
+  font-family: "Ubuntu Condensed",sans-serif;
+}
+.twit-icon{
+  margin-right: 5px;
+}
+.twit-body{}
+#twit {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#twit li {
+  background: none repeat scroll 0 0 #394264;
+  margin-bottom: 1px;
+  padding: 5% 41% 4% 10%;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+#twit li:last-child{
+  margin-bottom: 0;
+}
+#twit li:hover{
+  background: #50597B;
+  cursor: pointer;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+#twit li p {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 18px;
+}
+.twit-p{}
+.mark-twt {
+  color: #4EBFF0;
+}
+.ago{
+  color: #A0A2A3;
+  font-size: 13px;
+}
+.mark-twt:hover{
+    border-bottom: 1px solid;
+}
+
+/*===== Share-group-button Style =====*/
+
+.share-group-button{}
+#share {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#share li {
+  margin-bottom: 10px;
+}
+#share li:last-child{
+    margin-bottom: 0;
+}
+.btn-group {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+}
+.icon {
+  border: medium none;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 5% 0;
+  width: 25%;
+  font-family: "Ubuntu Condensed",sans-serif;
+  text-align: center;
+}
+.main-btn {
+  border: medium none;
+  color: #fff;
+  display: block;
+  float: right;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 5%;
+  text-align: left;
+  width: 75%;
+}
+.fbook{
+    background: #1A4E95;
+}
+.fbook,.facebook, .twtt, .twitter, .google, .googleplus{
+    opacity: 0.95;
+    -webkit-transition: opacity 0.3s linear 0s;
+    -moz-transition: opacity 0.3s linear 0s;
+    -o-transition: opacity 0.3s linear 0s;
+    -ms-transition: opacity 0.3s linear 0s;
+    transition: opacity 0.3s linear 0s;
+}
+.fbook:hover,.facebook:hover, .twtt:hover, .twitter:hover, .google:hover, .googleplus:hover{
+    opacity: 1;
+    -webkit-transition: opacity 0.3s linear 0s;
+    -moz-transition: opacity 0.3s linear 0s;
+    -o-transition: opacity 0.3s linear 0s;
+    -ms-transition: opacity 0.3s linear 0s;
+    transition: opacity 0.3s linear 0s;
+}
+.facebook{
+    background: #3468AF;
+}
+.twtt{
+    background: #35AADC;
+}
+.twitter{
+    background: #4FC4F6;
+}
+.google{
+    background: #CC324B;
+}
+.googleplus{
+    background: #E64C65;
+}
+
+/*===== Part-3 =====*/
+
+/*===== Mail-chimp Style =====*/
+.mail-chimp {
+  background: none repeat scroll 0 0 #394264;
+  display: block;
+  overflow: hidden;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 0 !important;
+}
+.mailchimp-header h2 {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 0 25px;
+  text-transform: uppercase;
+  line-height: 21px;
+}
+.subscribe{}
+.subscribe input[type="email"] {
+  background: url("../image/mailchimp.png") no-repeat scroll left center / 12% 55% #50597b;
+  border: 1px solid #11a8ab;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 4px 10px 48px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.subscribe input[type="submit"] {
+  background: none repeat scroll 0 0 #11a8ab;
+  border: medium none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 45%;
+  margin-top: 10px;
+  -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+.subscribe input[type="submit"]:hover {
+    background: #13A89E;
+    -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+
+.mc-field-group, .clear {
+    width: 100%;
+}
+
+
+/*===== Sign-account Style =====*/
+.single-item-part-3{}
+.sign-account {
+  background: none repeat scroll 0 0 #394264;
+  display: block;
+  overflow: hidden;
+  padding: 30px 20px;
+  text-align: center;
+}
+.sign-header h2{
+    color: #fff;
+    font-family: "Ubuntu Condensed",sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 25px;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+.sign-in{}
+.sign-in input[type="email"]{
+    background: url("../image/mailchimp.png") no-repeat scroll left center / 12% 55% #50597b;
+    border: 1px solid #11a8ab;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 4px 10px 48px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sign-in input[type="password"] {
+  background: url("../image/mailchimppassword.png") no-repeat scroll left center / 11% 87% #50597b;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+  padding: 10px 4px 10px 48px;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+
+.sign-in input[type="submit"] {
+  background: none repeat scroll 0 0 #E64C65;
+  border: medium none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 45%;
+  margin-top: 10px;
+  -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+.sign-in input[type="submit"]:hover {
+    background: #EC3D68;
+    -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+
+.field-group p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 11px;
+    font-family: "Ubuntu Condensed",sans-serif;
+}
+.sign {
+  background: none repeat scroll 0 0 #3468af;
+  padding: 10px 0;
+  text-align: center;
+}
+.sign a {
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.fb {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  content: "";
+  font-size: 15px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 5px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 25px;
+}
+
+
+
+/*===== Progress Style =====*/
+
+.progress-bar-item {
+  background: none repeat scroll 0 0 #394264;
+  padding: 40px 26px 30px;
+  text-align: left;
+  margin-top: 0 !important;
+}
+.progress-top {
+  padding-bottom: 16px;
+}
+.progress-label{}
+.progress-label a {
+  color: #fff;
+  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 16px;
+}
+.doom {
+  font-size: 16px;
+  font-weight: 100;
+  margin-right: 13px;
+  position: relative;
+  top: 3px;
+  color: #CACACA;
+}
+.goom {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  float: right;
+  font-size: 15px !important;
+  font-weight: 100 !important;
+}
+.progress-bottom{}
+
+/*===== Calendar styles =====*/
+.calendar-design{}
+#calendarr {
+  background: none repeat scroll 0 0 #3468af;
+  color: #fff;
+  height: 320px;
+  text-align: center;
+  width: 100%;
+}
+#calendarr p{
+    font-family: "Ubuntu Condensed",sans-serif;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+#calendar-day {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 auto !important;
+  position: relative;
+  width: 50%;
+  left: -2%;
+}
+#calendar-date {
+  font-size: 140px;
+  left: 8% !important;
+  padding-bottom: 0;
+  padding-top: 0 !important;
+  position: relative;
+  width: 80%;
+}
+#calendar-month-year {
+  display: none!important;
+  font-size: 14px;
+  height: 0 !important;
+}
+.day{
+    background: none repeat scroll 0 0 #1a4e95;
+    position: relative;
+}
+.left {
+  background: url("../image/arrowleft.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  left: 4%;
+  top: 26%;
+}
+.left, .right {
+  display: block;
+  height: 30px;
+  line-height: 27px;
+  position: absolute;
+  width: 30px;
+  z-index: 100 !important;
+  text-indent: -9999px;
+}
+.right {
+  float: right;
+  right: 4%;
+  top: 26%;
+  background: url("../image/arrowright.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#calendarr input[type="submit"] {
+  background: none repeat scroll 0 0 #4FC4F6;
+  border: medium none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  position: relative;
+  top: -28px;
+  width: 45%;
+  -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+#calendarr input[type="submit"]:hover {
+    background: #5BC0DE;
+    -webkit-transition: background 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+}
+
+
+/*===== Date-picker Calendar style =====*/
+
+.datepicker-calendar {
+    margin-top: 0 !important;
+}
+
+#calendar {
+  width: 100%;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

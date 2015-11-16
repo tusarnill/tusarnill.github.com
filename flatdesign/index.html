@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Add Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+		
+		<!-- Get JQuery from the Google APIS -->
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script> -->
+		<!-- <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+		<!-- Css Style -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		
+		
+		
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		 
+
+		
+		<link rel="stylesheet" href="css/lightbox.css" />
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="css/calendar.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<!-- meta-property -->
+		<meta property="og:title" content="This is the Title of My Article">
+		<meta property="og:type" content="blog">
+		<meta property="og:image" content="http://www.website.org/image.jpg">
+		<meta property="og:url" content="http://www.url.org">
+		<meta property="og:description" content="This is My awesome, linkworthy description">
+
+		<!-- Favicon and Apple Icons -->
+		<link rel="shortcut icon" href="img/icons/triangle_animated.gif">
+		<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+		
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body class="bg">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+		<!-- Start Header Hd-Header -->
+		<header class="hd-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<article class="hd-menu">
+							<!-- Start Nav -->
+							<nav class="nav navbar-inverse">
+							  	<div class="container-fluid hd-full-nav">
+							    <!-- Brand and toggle get grouped for better mobile display -->
+							    	<!-- Start Navbar-Header -->
+								    <div class="navbar-header">
+									    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									        <span class="sr-only">Toggle navigation</span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									    </button>
+								    </div>
+									<!-- End Navbar-Header -->
+								    <!-- Collect the nav links, forms, and other content for toggling -->
+								    <div class="collapse navbar-collapse hd-area" id="bs-example-navbar-collapse-1">
+								     	<ul class="nav navbar-nav hd-nav">
+								      		<li><a href="#">
+								      			 <i class="fa fa-cog setting"></i>
+								      			Settings
+								      		</a></li>
+								        	<li class="active"><a href="#">
+								        		<i class="fa fa-user setting"></i> Account
+								        	</a></li>
+								       		<li><a href="#" class="spp">
+								       			<i class="fa fa-envelope-o setting"></i> Messages <span class="op">5</span>
+								       		</a></li>
+								        	<li><a href="#">
+								        		<i class="fa fa-star setting"></i> Favorites
+								        	</a></li>
+								      	</ul>
+								      	<ul class="nav navbar-nav navbar-right hd-fog">
+								        	<li class="dropdown">
+									          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <p class="me"> Me <span class="caret"></span></p></a>
+									         	<ul class="dropdown-menu hd-doom" role="menu">
+									            	<li><a href="#">Action</a></li>
+									           	 	<li><a href="#">Another action</a></li>
+									            	<li><a href="#">Something else here</a></li>
+									          	</ul>
+									        </li>
+								       		<li>
+								       			<a id="no-padd" href="#"><img class="img-circle hd-profile" src="image/tusar.jpg" height="56" width="56" alt="profilesmall" >
+												<img class="img-circle picbig" src="image/tusar.jpg" width="100" height="100" alt="tusar" />
+								       			</a>
+								       		</li>
+								      	</ul>
+							    	</div><!-- /.navbar-collapse -->
+							  	</div><!-- /.container-fluid -->
+							</nav>
+							<!-- End Nav -->
+						</article>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header Hd-Header -->
+		<!-- Start Container Tree-Part-3 -->
+		<section class="tree-part-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<!-- Start Part-1 -->
+						<article class="part-1">
+							<!-- Start row -->
+							<div class="row">
+								<!-- Start Single-item-part-1 -->
+								<div class="single-item-part-1 col-md-12 col-sm-6">
+									<!-- Start Pane-part-1 -->
+									<div class="pane-part-1">
+										<header class="pane-heading">
+											<h2>Menu Box</h2>
+										</header>
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										  	<div class="panel panel-default">
+										    	<div class="panel-heading effect" role="tab" id="headingOne">
+										      		<h4 class="panel-title">
+										       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										        		<span class="glyphicon glyphicon-envelope part-1-icon"></span> Messages <span class="badge part-1-badge">24</span>
+										        	</a>
+										      		</h4>
+										    	</div>
+										    	<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+										      		<div class="panel-body">
+										        		<ol id="message">
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        			<li><a href="#">user</a></li>
+										        		</ol>
+										      		</div>
+										    	</div>
+										  	</div>
+										  	<div class="panel panel-default">
+										    	<div class="panel-heading effect" role="tab" id="headingTwo">
+										      		<h4 class="panel-title">
+										       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+										        		<span class="glyphicon glyphicon-send part-1-icon"></span> Invites <span class="badge part-1-badge" id="dot">3</span>
+										        	</a>
+										      		</h4>
+										    	</div>
+										    	<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										      		<div class="panel-body">
+										        		<ol id="message">
+										        			<li><a href="#">person</a></li>
+										        			<li><a href="#">person</a></li>
+										        			<li><a href="#">person</a></li>
+										        		</ol>
+										      		</div>
+										    	</div>
+										  	</div>
+										  	<div class="panel panel-default">
+										    	<div class="panel-heading effect" role="tab" id="headingThree">
+										      		<h4 class="panel-title">
+										       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+										        		<span class="glyphicon glyphicon-calendar part-1-icon"></span> Events <span class="badge part-1-badge">5</span>
+										        	</a>
+										      		</h4>
+										    	</div>
+										    	<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+										      		<div class="panel-body">
+										        		<ol id="message">
+										        			<li><a href="#">time</a></li>
+										        			<li><a href="#">time</a></li>
+										        			<li><a href="#">time</a></li>
+										        			<li><a href="#">time</a></li>
+										        			<li><a href="#">time</a></li>
+										        		</ol>
+										      		</div>
+										    	</div>
+										  	</div>
+										  	<div class="panel panel-default">
+										    	<div class="panel-heading effect" role="tab" id="headingFour">
+										      		<h4 class="panel-title">
+										       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+										        		<span class="glyphicon glyphicon-cog part-1-icon"></span> Account Settings
+										        	</a>
+										      		</h4>
+										    	</div>
+										    	<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+										      		<div class="panel-body">
+										        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+										      		</div>
+										    	</div>
+										  	</div>
+										  	<div class="panel panel-default">
+										    	<div class="panel-heading effect" role="tab" id="headingFive">
+										      		<h4 class="panel-title">
+										       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+										        		<span class="glyphicon glyphicon-stats part-1-icon"></span> Statistics
+										        	</a>
+										      		</h4>
+										    	</div>
+										    	<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+										      		<div class="panel-body">
+										        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+										      		</div>
+										    	</div>
+										  	</div>
+										</div>
+									</div>
+									<!-- End Pane-part-1 -->
+								</div>
+								<!-- End Single-item-part-1 -->
+								<!-- Start Single-item-part-1 -->
+								<div class="single-item-part-1 col-md-12 col-sm-6">
+									<!-- Start Diagram-stats -->
+									<div class="diagram-stats">
+										<header class="diagram-heading">
+											<h2>OS AUDIENCE STATS</h2>
+										</header>
+										<div class="diagram">
+											<div id="fact-1" class="dose">
+												<div id="lool" class="lul" data-rel="21"></div>
+											</div>
+											<div id="fact-2" class="dose">
+												<div id="lool" class="lul" data-rel="48"></div>
+											</div>
+											<div id="fact-3" class="dose">
+												<div id="lool" class="lul" data-rel="9"></div>
+											</div>
+											<div id="fact-4" class="dose">
+												<div id="lool" class="lul" data-rel="32"></div>
+											</div>
+											<div id="center">
+												<p>June <br><span class="years">2013</span></p>
+											</div>
+										</div>
+										<div class="stats">
+											<ul id="list-stats">
+												<li>
+													<p class="device ios">iOS</p>
+													<p class="percent">21 <sup>%</sup></p>
+												</li>
+												<li>
+													<p class="device mac">Mac</p>
+													<p class="percent">48 <sup>%</sup></p>
+												</li>
+												<li>
+													<p class="device linux">Linux</p>
+													<p class="percent">9 <sup>%</sup></p>
+												</li>
+												<li>
+													<p class="device win">Win</p>
+													<p class="percent">32 <sup>%</sup></p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<!-- End Diagram-stats -->
+								</div>
+								<!-- End Single-item-part-1 -->
+								<!-- Start Single-item-part-1 -->
+								<div class="single-item-part-1 col-md-12 col-sm-6">
+									<!-- Start Line-chart-blog -->
+									<div class="line-chart-blog">
+										<div class="line-chart">
+											<div class="locker">
+												<ul id="line">
+													<li data-ejey="30"></li>
+													<li data-ejey="20"></li>
+													<li data-ejey="10"></li>
+													<li data-ejey="0"></li>
+												</ul>
+												<ul id="jone">
+													<li>Apr</li>
+													<li>May</li>
+													<li>Jun</li>
+												</ul>
+												<span class="lenth start-1">
+												<span class="lenth start-2"><span class="lenth start-3"><span class="lenth start-4"><span class="lenth start-5"><span class="lenth start-6"><span class="lenth start-7"><span class="lenth start-8"></span></span></span></span></span></span></span></span>
+											</div>
+										</div>
+										<div class="monthe">
+											<ul id="monthe-btn">
+												<li><button id="mbtn1">Week</button></li>
+												<li><button id="mbtn2">Month</button></li>
+												<li><button id="mbtn1">Year</button></li>
+											</ul>
+										</div>
+										<div class="timee">
+											<ul id="date-time">
+												<li>
+													<p class="at">
+														Apr <span class="yr">2013</span>
+													</p>
+													<p class="temp">
+														<span class="plus">+</span> 21 <sup>%</sup>
+													</p>
+												</li>
+												<li>
+													<p class="at">
+														May <span class="yr">2013</span>
+													</p>
+													<p class="temp">
+														<span class="plus">+</span> 48 <sup>%</sup>
+													</p>
+												</li>
+												<li>
+													<p class="at">
+														Jun <span class="yr">2013</span>
+													</p>
+													<p class="temp">
+														<span class="plus">+</span> 35 <sup>%</sup>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<!-- End Line-chart-blog -->
+								</div>
+								<!-- End Single-item-part-1 -->
+								<!-- Start Single-item-part-1 -->
+								<div class="single-item-part-1 col-md-12 col-sm-6">
+									<!-- Start Video-frame -->
+									<div class="video-frame">
+										<div class="youtube">
+											<!-- 4:3 aspect ratio -->
+											<div class="embed-responsive embed-responsive-4by3 utune">
+											  <!-- <iframe class="embed-responsive-item" src="http://youtu.be/zV40NzkqJrw"></iframe> -->
+											  <iframe width="560" height="315" src="https://www.youtube.com/embed/m84-gVCirSg" frameborder="0" allowfullscreen></iframe>
+											</div>
+										</div>
+									</div>
+									<!-- End Video-frame -->
+								</div>
+								<!-- End Single-item-part-1 -->
+								<!-- Start Single-item-part-1 -->
+								<div class="single-item-part-1 col-md-12 col-sm-6">
+									<!-- Start Social-media-size -->
+									<div class="social-media-size">
+										<ul id="media-size">
+											<li>
+												<p class="icone fcb"><i class="fa fa-facebook"></i></p>
+												<p class="byte fcbk">248k</p>
+											</li>
+											<li>
+												<p class="icone twt"><i class="fa fa-twitter"></i></p>
+												<p class="byte twtk">30k</p>
+											</li>
+											<li>
+												<p class="icone gplus"><i class="fa fa-google-plus"></i></p>
+												<p class="byte gplusk">124k</p>
+											</li>
+											<li>
+												<p class="icone msg"><i class="fa fa-envelope-o"></i></p>
+												<p class="byte msgk">89k</p>
+											</li>
+										</ul>
+									</div>
+									<!-- End Social-media-size -->
+								</div>
+								<!-- End Single-item-part-1 -->
+							</div>
+							<!-- End Row -->
+						</article>
+						<!-- End Part-1 -->
+					</div>
+					<div class="col-md-4">
+						<!-- Start Part-2 -->
+						<article class="part-2">
+							<!-- Start row -->
+							<div class="row">
+								<!-- Start Single-item-part-2 -->
+								<div class="single-item-part-2 col-md-12 col-sm-6">
+									<!-- Start Hathaway -->
+									<div class="hathaway">
+										<div class="hathaway-1">
+											<img src="image/tusar.jpg" width="165" height="165" alt="someimg">
+											<h3>Anne Hathaway</h3>
+											<p>Lorem ipsum dolor sit amet <br>consectetuer adipiscing</p>
+											<a class="plus-control" href="#">+</a>
+										</div>
+										<div class="hathaway-2">
+											<ul id="target">
+												<li><a class="red" href="#">
+													<span class="glyphicon glyphicon-comment way"></span> 23
+												</a></li>
+												<li><a class="aqua" href="#">
+													<span class="glyphicon glyphicon-eye-open way"></span> 841
+												</a></li>
+												<li><a class="orange" href="#">
+													<span class="glyphicon glyphicon-heart way"></span> 49
+												</a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End Hathaway -->
+								</div>
+								<!-- End Single-item-part-2 -->
+								<!-- Start Single-item-part-2 -->
+								<div class="single-item-part-2 col-md-12 col-sm-6">
+									<!-- Start Weather-shape-bar -->
+									<div class="weather-shape-bar">
+										<div class="weather-menu-bar">
+											<header class="highlight-header">
+												<h2><i class="fa fa-map-marker markmp"></i> CLUJ-NAPOCA <span class="ro">/ RO</span></h2>
+											</header>
+											<div class="temparature">
+												<p>FRI <span class="in">29/06</span>
+												<br><span class="tempar">24º</span></p>
+												<span class="megh">
+													<img src="image/ftop.png" height="68" width="86" alt="megh">
+												</span>
+											</div>
+											<div class="day-date">
+												<ul id="chat-list">
+													<li><a href="#">
+															<p class="on"><span class="onat">SAT</span> <span class="dmth">29/06</span></p>
+															<p class="is">
+																25º
+																<img src="image/litetsun.png" height="35" width="43" alt="eto">
+															</p>
+														</a>
+													</li>
+													<li><a id="factive" href="#">
+															<p class="on"> <span class="onat">SUN</span> <span class="dmth">30/06</span></p>
+															<p class="is">
+																22º
+																<img src="image/cloud.png" height="33" width="44" alt="eto">
+															</p>
+														</a>
+													</li>
+													<li><a href="#">
+															<p class="on"> <span class="onat">MON</span> <span class="dmth">01/07</span></p>
+															<p class="is">
+																24º
+																<img src="image/cloud.png" height="33" width="44" alt="eto">
+															</p>
+														</a>
+													</li>
+													<li><a href="#">
+															<p class="on"> <span class="onat">TUE</span> <span class="dmth">02/07</span></p>
+															<p class="is">
+																26º
+																<img src="image/litetsun.png" height="35" width="43" alt="eto">
+															</p>
+														</a>
+													</li>
+													<li><a href="#">
+															<p class="on"> <span class="onat">WED</span> <span class="dmth">03/07</span></p>
+															<p class="is">
+																27º
+																<img src="image/sun.png" height="33" width="42" alt="eto">
+															</p>
+														</a>
+													</li>
+													<li><a href="#">
+															<p class="on"> <span class="onat">THU</span> <span class="dmth">04/07</span></p>
+															<p class="is">
+																29º
+																<img src="image/sun.png" height="33" width="42" alt="eto">
+															</p>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- End Weather-shape-bar -->
+								</div>
+								<!-- End Single-item-part-2 -->
+								<!-- Start Single-item-part-2 -->
+								<div class="single-item-part-2 col-md-12 col-sm-6">
+									<!-- Start twit-news-update -->
+									<div class="twit-news-update">
+										<div class="twit-news">
+											<header class="head-twit">
+												<h2><span class="fa fa-twitter twit-icon"></span> Latest Tweets</h2>
+											</header>
+											<div class="twit-body">
+												<ul id="twit">
+													<li>
+														<p class="twit-p">Ice-cream trucks only play music when out of ice-cream. Well played dad. On <span class="mark-twt">@Quora</span></p>
+														<span class="ago">3 minutes ago</span>
+													</li>
+													<li>
+														<p class="twit-p">We are in the process of pushing out all of the new CC apps! We will tweet again once they are live <br><span class="mark-twt">#CreativeCloud</span></p>
+														<span class="ago">6 hours ago</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- End twit-news-update -->
+								</div>
+								<!-- End Single-item-part-2 -->
+								<!-- Start Single-item-part-2 -->
+								<div class="single-item-part-2 col-md-12 col-sm-6">
+									<!-- Start Share-group-button -->
+									<div class="share-group-button">
+										<ul id="share">
+											<li>
+												<div class="btn-group">
+													<button type="button" class="icon fbook">
+												    <i class="fa fa-facebook"></i> <span class="sr-only"></span>
+												  </button>
+												  <button type="button" class="main-btn facebook">share to facebook</button>
+												</div>
+											</li>
+											<li>
+												<div class="btn-group">
+													<button type="button" class="icon twtt">
+												    <i class="fa fa-twitter"></i> <span class="sr-only"></span>
+												  </button>
+												  <button type="button" class="main-btn twitter">share to twitter</button>
+												</div>
+											</li>
+											<li>
+												<div class="btn-group">
+													<button type="button" class="icon google">
+												    <i class="fa fa-google-plus"></i> <span class="sr-only"></span>
+												  </button>
+												  <button type="button" class="main-btn googleplus">share to google+</button>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<!-- End Share-group-button -->
+								</div>
+								<!-- End Single-item-part-2 -->
+							</div>
+							<!-- End Row -->
+						</article>
+						<!-- End Part-2 -->
+					</div>
+					<div class="col-md-4">
+						<!-- Start Part 3 -->
+						<article class="part-3">
+							<!-- Start Row -->
+							<div class="row">
+								<!-- Strat Sinlge-item-part-3 -->
+								<div class="single-item-part-3 col-md-12 col-sm-6">
+									<!-- Start Mail-chimp -->
+									<div class="mail-chimp">
+										<header class="mailchimp-header">
+											<h2>Join the newsletter</h2>
+										</header>
+										<!-- Begin MailChimp Signup Form -->
+										<div class="subscribe" id="mc_embed_signup">
+											<form action="http://net16.us9.list-manage.com/subscribe/post?u=a3948f04a03e2befd8646e7c5&amp;id=71f627c349" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+												
+												<div class="mc-field-group">
+													<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="yourname@gmail.com">
+												</div>
+											
+												<div id="mce-responses" class="clear">
+													<div class="response" id="mce-error-response" style="display:none"></div>
+													<div class="response" id="mce-success-response" style="display:none"></div>
+												</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+												<div style="position: absolute; left: -5000px;">
+													<input type="text" name="b_a3948f04a03e2befd8646e7c5_71f627c349" tabindex="-1" value="">
+												</div>
+												<div class="clear">
+													<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+												</div>
+												
+											</form>
+										</div>
+										<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+										<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+										<!--End mc_embed_signup-->
+									</div>
+									<!-- End Mail-chimp -->
+								</div>
+								<!-- End Single-item-part-3 -->
+								<!-- Start Single-item-part-3a -->
+								<div class="single-item-part-3 col-md-12 col-sm-6">
+									<!-- Start Sign-account -->
+									<div class="sign-account">
+										<header class="sign-header">
+											<h2>Sign in to your account</h2>
+										</header>
+										<div class="sign-in">
+											<form action="#" method="#">
+												<div class="field-group">
+													<input type="email" name="email" id="email" placeholder="yourname@gmail.com">
+												</div>
+												<div class="field-group">
+													<input type="password" name="password" class="required password" id="password" placeholder="Password">
+												</div>
+												<div class="field-group">
+													<input type="submit" name="submit" id="submit" value="Sign In">
+													<p>Forgot Password?</p>
+												</div>
+											</form>
+										</div>
+									</div>
+									<!-- Start Sign-account -->
+									<div class="sign">
+										<a href="#">
+											<i class="fa fa-facebook fb"></i> Sign in with Facebook
+										</a>
+									</div>
+								</div>
+								<!-- End Single-item-part-3 -->
+								<!-- Start Single-item-part-3 -->
+								<div class="single-item-part-3 col-md-12 col-sm-6">
+									<!-- Start Progress-bar-item -->
+									<div class="progress-bar-item">
+										<div class="progress-top">
+											<div class="progress">
+											  	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 81%">
+											    	<span class="sr-only">81% Complete (info)</span>
+											  	</div>
+											</div>
+											<div class="progress-label">
+												<a href="#"><span class="glyphicon glyphicon-download doom"></span> Downloading... <span class="badge goom">81<sup>%</sup></span></a>
+											</div>
+										</div>
+										<div class="progress-bottom">
+											<div class="progress">
+											  	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 43%">
+											    	<span class="sr-only">43% Complete (success)</span>
+											  	</div>
+											</div>
+											<div class="progress-label">
+												<a href="#"><span class="glyphicon glyphicon-upload doom"></span> Downloading... <span class="badge goom">43<sup>%</sup></span></a>
+											</div>
+										</div>
+									</div>
+									<!-- End Progress-bar-item -->
+								</div>
+								<!-- End Single-item-part-3 -->
+								<!-- Start Single-item-part-3 -->
+								<div class="single-item-part-3 col-md-12 col-sm-6">
+									<!-- Start Calendar-design -->
+									<div class="calendar-design">
+										<div id="calendarr">
+											<div class="day">
+												<a href="#"><i class="fa fa-angle-left left"></i></a> <p id="calendar-day"></p> <a href="#"><i class="fa fa-angle-right right"></i></a>
+											</div>
+											<p id="calendar-date"></p>
+											<input type="submit" value="Add Event" id="submit">
+											<p id="calendar-month-year"></p>
+										</div>
+									</div>
+									<!-- End Calendar-design -->
+								</div>
+								<!-- End Single-item-part-3 -->
+								<!-- Start single-item-part-3 -->
+								<div class="single-item-part-3 col-md-12 col-sm-6">
+									<!-- Start datepicker-calendar -->
+									<div class="datepicker-calendar">
+										<div id="calendar"></div>
+									</div>
+									<!-- End datepicker-calendar -->
+								</div>
+								<!-- End single-item-part-3 -->
+							</div>
+							<!-- End Row -->
+						</article>
+						<!-- End Part-3 -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Container Tree-Part-3 -->
+		
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"></script>')</script> -->
+		
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<script src="js/jquery-ui-datepicker.min.js"></script>
+        <script src="js/main.js"></script>
+		<script type="text/javascript">
+		  WebFontConfig = {
+		    google: { families: [ 'Ubuntu+Condensed::latin' ] }
+		  };
+		  (function() {
+		    var wf = document.createElement('script');
+		    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		    wf.type = 'text/javascript';
+		    wf.async = 'true';
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(wf, s);
+		  })(); 
+  		</script>
+    </body>
+</html>
