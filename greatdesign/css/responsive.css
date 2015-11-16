@@ -1,0 +1,789 @@
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+@media only screen and (min-width: 1200px) and (max-width: 1260px){
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -2%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -2%;
+}
+.col-md-6.col-sm-6.col-xs-12.b2,  .col-md-6.col-sm-6.col-xs-12.b3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5% !important;
+}
+.navbar {
+  margin: 15px 0;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -1%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -1%;
+}
+.owl-item > .item > img {
+  width: 83% !important;
+  height: 80px;
+}
+
+
+/* St-Top */
+.group {
+  padding: 0;
+}
+.gp-top > h1 {
+  font-size: 390%;
+  line-height: 64px;
+}
+.gp-btm {
+  padding-right: 0;
+}
+.form-inline .form-group {
+  margin-right: 0%;
+  display: block;
+}
+.gp-btm .form-inline .form-control, .benten {
+  height: 55px !important;
+  max-width: 220px !important;
+  width: 100%;
+}
+
+/* St-Client */ 
+section#st-clients {
+  padding: 60px 0 30px;
+}
+
+/* St-Fancy */
+.f-head {
+  padding: 0;
+}
+
+/* St-Timeline */
+.list {
+  width: 40%;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  left: 47% !important;
+}
+
+/* St-Clientsays */
+.media-box {
+  padding: 0 0;
+}
+.media-body > p {
+  font-size: 19px;
+}
+.media-left {
+  margin-right: 14px;
+}
+.media-right {
+  margin-left: 14px;
+}
+.col-md-6.col-sm-6.col-xs-12.b2,  .col-md-6.col-sm-6.col-xs-12.b3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.media-body {
+  padding: 10px 0 0;
+}
+.dets {
+  padding: 0;
+}
+.comment-area, .comment {
+  padding: 0;
+}
+
+/* St-Footer */
+.hd-info > h1 {
+  font-size: 166%;
+}
+#line > li {
+  margin-right: 15%;
+}
+
+}
+
+
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 991px){
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5% !important;
+}
+.navbar {
+  margin: 15px 0;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -3%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -3%;
+}
+
+/* St-Top */
+.group {
+  padding: 0;
+}
+.gp-top > h1 {
+  font-size: 390%;
+  line-height: 64px;
+}
+.gp-btm {
+  padding-right: 0;
+}
+.form-inline .form-group {
+  margin-right: 0%;
+  display: block;
+}
+.gp-btm .form-inline .form-control, .benten {
+  height: 55px !important;
+  max-width: 220px !important;
+  width: 100%;
+}
+
+/* St-Client */ 
+section#st-clients {
+  padding: 60px 0 30px;
+}
+
+/* St-Fancy */
+.f-head {
+  padding: 0;
+}
+
+/* St-Timeline */
+.list {
+  width: 40%;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  left: 45% !important;
+}
+
+
+/* St-Clientsays */
+.media-box {
+  padding: 0 0;
+}
+.media-body > p {
+  font-size: 19px;
+}
+.media-left {
+  margin-right: 14px;
+}
+.media-right {
+  margin-left: 14px;
+}
+.col-md-6.col-sm-6.col-xs-12.b2,  .col-md-6.col-sm-6.col-xs-12.b3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.media-body {
+  padding: 10px 0 0;
+}
+.dets {
+  padding: 0;
+}
+.comment-area, .comment {
+  padding: 0;
+}
+
+/* St-Footer */
+.hd-info > h1 {
+  font-size: 166%;
+}
+#line > li {
+  margin-right: 15%;
+}
+
+	
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5px !important;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 10%;
+  top: -10%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 10%;
+  top: -10%;
+}
+
+
+/* St-Top */
+.group {
+  padding: 0;
+}
+.gp-top > h1 {
+  font-size: 390%;
+  line-height: 64px;
+}
+.gp-btm {
+  padding-right: 0;
+}
+.form-inline .form-group {
+  margin-right: 0%;
+  display: block;
+}
+.gp-btm .form-inline .form-control, .benten {
+  height: 55px !important;
+  max-width: 220px !important;
+  width: 100%;
+}
+
+/* St-Client */ 
+section#st-clients {
+  padding: 60px 0 30px;
+}
+
+/* St-Fancy */
+.f-head {
+  padding: 0;
+}
+
+/* St-Timeline */
+.list {
+  width: 40%;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  left: 45% !important;
+}
+.list.d2.t4::before, .list.d2.t2::before {
+  left: -27.4%;
+}
+
+
+/* St-Clientsays */
+.media-box {
+  padding: 0 0;
+}
+.media-body > p {
+  font-size: 19px;
+}
+.media-left {
+  margin-right: 14px;
+}
+.media-right {
+  margin-left: 14px;
+}
+.col-md-6.col-sm-6.col-xs-12.b2,  .col-md-6.col-sm-6.col-xs-12.b3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.media-body {
+  padding: 10px 0 0;
+}
+.dets {
+  padding: 0;
+}
+.comment-area, .comment {
+  padding: 0;
+}
+
+/* St-Footer */
+.hd-info > h1 {
+  font-size: 166%;
+}
+#line > li {
+  margin-right: 15%;
+}
+
+
+
+
+
+
+
+
+}
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+	
+
+
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* St-Header */
+.logo {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+#shape {
+  margin-top: -5%;
+}
+/* Jason Nav  */
+.menu-main .navbar.navbar-default {
+  background: none repeat scroll 0 0 transparent !important;
+  padding: 0 0 0 6px !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: -5px !important;
+  z-index: 2000 !important;
+}
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  text-transform: uppercase !important;
+  color: #fff;
+}
+.navmenu-default, .navbar-default .navbar-offcanvas {
+  background-color: #616161;
+  border-color: #e7e7e7;
+}
+.navmenu-default .navmenu-nav > li > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-toggle {
+  background-color: #616161;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fa8072;
+}
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+  width:100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 15%;
+}
+
+/*#myNavmenu.navmenu-fixed-right {
+  left: 60% !important;
+  position: fixed;
+}*/
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 100px !important;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 24%;
+  top: -15%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 24%;
+  top: -15%;
+}
+/* St-Top */
+
+.gp-top > h1 {
+  font-size: 500%;
+}
+.gp-top > p {
+  padding-left: 0;
+}
+.gp-btm {
+  padding-right: 0;
+}
+.form-inline .form-group {
+  margin-right: 0;
+}
+.gp-btm .form-inline .form-control, .benten {
+  width: 100%;
+}
+
+/* St-Client */
+section#st-clients {
+  padding: 60px 0 30px;
+}
+
+/* St-Fancy */
+.title-text > h1 {
+  font-size: 26px;
+}
+
+/* St-Timeline */
+.mobile {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.bar.timeline-bar{
+  display: none;
+}
+.list.d1.t1, .list.d2.t2, .list.d1.t3, .list.d2.t4 {
+  position: relative;
+  width: 100%;
+  margin: 30px 0 10px;
+}
+.list.d1.t1::before, .list.d1.t3::before, .list.d2.t4::before, .list.d2.t2::before{
+  display: none;
+}
+.typane-left, .typane-right {
+  padding: 20px 5px 10px;
+  text-align: center;
+}
+.list.d1.t1::after, .list.d1.t3::after, .list.d2.t4::after, .list.d2.t2::after {
+  display: block;
+  left: 45%;
+  position: absolute;
+  top: -15px;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+/* St-Clientsays */
+.media-left, .media-right {
+  float: none !important;
+  margin: 0 !important;
+}
+.media-object {
+  width: 100%;
+}
+.comment-area {
+  padding: 0;
+}
+.comment {
+  padding: 0;
+}
+.comment.left {
+  margin-bottom: 30px;
+}
+.pers.client::before {
+  right: 45%;
+}
+.pers.consumers::before {
+  left: 45%;
+}
+
+
+/* Ft-Footer */
+#line > li {
+  margin-right: 10%;
+}
+.ft-widget {
+  margin-bottom: 40px;
+}
+.ft-widget.f3 {
+  margin-bottom: 0px;
+}
+
+
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+/* St-Header */
+.logo {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+#shape {
+  margin-top: -6%;
+}
+/* Jason Nav  */
+.menu-main .navbar.navbar-default {
+  background: none repeat scroll 0 0 transparent !important;
+  padding: 0 0 0 6px !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: -5px !important;
+  z-index: 2000 !important;
+}
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  text-transform: uppercase !important;
+  color: #fff;
+}
+.navmenu-default, .navbar-default .navbar-offcanvas {
+  background-color: #616161;
+  border-color: #e7e7e7;
+}
+.navmenu-default .navmenu-nav > li > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-toggle {
+  background-color: #616161;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fa8072;
+}
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 100px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  top: -15%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  top: -15%;
+}
+.owl-item > .item > img {
+  width: 80% !important;
+  height:70px;
+}
+
+/* St-Top */
+
+.gp-top > h1 {
+  font-size: 300%;
+  line-height: 60px;
+}
+.gp-top > h4 {
+  font-size: 25px;
+}
+.gp-top > p {
+  padding-left: 0;
+}
+.gp-btm {
+  padding-right: 0;
+}
+.form-inline .form-group {
+  margin-right: 0;
+}
+.gp-btm .form-inline .form-control, .benten {
+  width: 100%;
+}
+
+/* St-Client */
+section#st-clients {
+  padding: 60px 0 30px;
+}
+
+/* St-Fancy */
+.title-text > h1 {
+  font-size: 26px;
+}
+
+/* St-Timeline */
+.mobile {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.bar.timeline-bar{
+  display: none;
+}
+.list.d1.t1, .list.d2.t2, .list.d1.t3, .list.d2.t4 {
+  position: relative;
+  width: 100%;
+  margin: 30px 0 10px;
+}
+.list.d1.t1::before, .list.d1.t3::before, .list.d2.t4::before, .list.d2.t2::before{
+  display: none;
+}
+.typane-left, .typane-right {
+  padding: 20px 5px 10px;
+  text-align: center;
+}
+.list.d1.t1::after, .list.d1.t3::after, .list.d2.t4::after, .list.d2.t2::after {
+  display: block;
+  left: 45%;
+  position: absolute;
+  top: -15px;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+
+/* St-Clientsays */
+.media-left, .media-right {
+  float: none !important;
+  margin: 0 !important;
+}
+.media-object {
+  width: 100%;
+}
+.comment-area {
+  padding: 0;
+}
+.comment {
+  padding: 0;
+}
+.comment.left {
+  margin-bottom: 30px;
+}
+.pers.client::before {
+  right: 45%;
+}
+.pers.consumers::before {
+  left: 45%;
+}
+
+
+/* Ft-Footer */
+#line > li {
+  margin-right: 10%;
+}
+.ft-widget {
+  margin-bottom: 40px;
+}
+.ft-widget.f3 {
+  margin-bottom: 0px;
+}
+
+}
+
+@media only screen and (min-width: 321px) {
+
+/*#myNavmenu.navmenu-fixed-right {
+  left: 60% !important;
+  position: fixed;
+}*/
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+.owl-item > .item > img {
+  width: 80% !important;
+  height:70px;
+}
+
+
+
+}

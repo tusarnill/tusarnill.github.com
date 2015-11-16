@@ -1,0 +1,1083 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 105px;
+    background: #f1efef none repeat scroll 0 0;
+}
+
+#scrollUp {
+  background: rgba(0, 0, 0, 0) url("../img/top.png") no-repeat scroll 0 0;
+  bottom: 20px;
+  height: 38px;
+  right: 20px;
+  width: 38px;
+  outline: none;
+}
+
+/* ==========================================================================
+   St-Header
+   ========================================================================== */
+header#st-header {
+  background: #e5e5e5 none repeat scroll 0 0;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  height: 105px;
+  left: 0;
+  padding: 20px 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.logo > a {
+  outline: medium none;
+}
+.logo img {
+  width: 62%;
+}
+#shape{
+  height: 70px;
+  width: 62%;
+}
+#nav{
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+/* nav */
+.navbar-inverse .navbar-nav > li > a {
+  outline: medium none !important;
+  text-transform: uppercase;
+  color: #616161;
+}
+.navbar {
+  margin: 10px 0;
+}
+.navbar-toggle {
+    
+}
+.navbar-default {
+  background-color: #fff;
+  border: 0 none;
+}
+.current a{
+  color: #EA664C !important;
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #000;
+}
+.navbar-nav {
+  float: right;
+}
+
+
+/* ==========================================================================
+   St-top
+   ========================================================================== */
+section#st-slider {
+  background: rgba(0, 0, 0, 0) url("../img/background-4.jpg") no-repeat scroll 0 0 / 100% 100%;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 130px 0 155px;
+}
+
+.gp-top > h1 {
+  color: #9e9e9e;
+  font-size: 76px;
+  font-weight: normal;
+  line-height: 100px;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.gp-top > h4 {
+  color: #9e9e9e;
+  font-size: 38px;
+  font-variant: super;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.gp-btm {
+  display: block;
+  padding-right: 20%;
+  text-align: right;
+  padding-top: 15px;
+}
+.form-group {
+  margin-bottom: 20px !important;
+}
+.form-control {
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: #555;
+  font-size: 16px;
+  padding: 10px 12px;
+  -webkit-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+
+.form-control:focus, .form-control:hover {
+  border-color: #dfdfdf !important;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+  background: #9E9E9E !important;
+  color: #fff !important;
+  -webkit-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+.form-control:focus::-webkit-input-placeholder, .form-control:hover::-webkit-input-placeholder {
+    color: #fff !important;
+}
+.form-control:focus:-moz-placeholder, .form-control:hover:-moz-placeholder {
+    /* FF 4-18 */
+    color: #fff !important;
+}
+.form-control:focus::-moz-placeholder, .form-control:hover::-moz-placeholder {
+    /* FF 19+ */
+    color: #fff  !important;
+}
+.form-control:focus:-ms-input-placeholder, .form-control:hover:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff  !important;
+}
+
+.btn-danger.benten {
+  border-radius: 0;
+  color: #fff;
+  padding: 13px 65px;
+  text-transform: uppercase;
+}
+.gp-btm .form-inline .form-control, .benten {
+  height: 55px !important;
+  width: 290px;
+}
+
+/* ==========================================================================
+   Common Class
+   ========================================================================== */
+.container-fluid {
+  overflow: hidden;
+  padding: 0;
+}
+.title-text > h1 {
+  color: #616161;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+/* ==========================================================================
+   St-Clients
+   ========================================================================== */
+section#st-clients {
+  background: rgba(0, 0, 0, 0) url("../img/parallax2.jpg") no-repeat scroll 0 0 / 100% 100%;
+  padding: 30px 0;
+}
+#st-clients .owl-pagination {
+  display: none;
+}
+
+/* ==========================================================================
+   St-fancy
+   ========================================================================== */
+section#st-fancy {
+  background: #fff none repeat scroll 0 0;
+  padding: 70px 0;
+}
+.fancy {
+  padding-top: 90px;
+}
+.f-head {
+  padding: 0 10px;
+  text-align: center;
+}
+.f-head > h1 {
+  color: #5d5d5d;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.f-head > p {
+  color: #7a7a7a;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 0.1px;
+}
+.f-head > a {
+  border-radius: 50%;
+  color: #e74c3c;
+  display: block;
+  height: 100px;
+  line-height: 125px;
+  text-align: center;
+  margin: auto;
+  outline: medium none;
+  width: 100px;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.f-head > a:hover{
+  background: #e74c3c;
+  color: #fff;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.f-head > a > i.fa {
+  font-family: fontawesome;
+  font-size: 56px;
+  font-weight: 100;
+}
+
+
+
+/* ==========================================================================
+   st-timeline
+   ========================================================================== */
+section#st-timeline {
+  background: #fff none repeat scroll 0 0;
+  padding: 35px 0 30px;
+}
+
+
+/* Masonry */
+.timeline {
+  padding: 85px 0 50px;
+}
+.contentdom {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bar.timeline-bar {
+  background: #dddddd none repeat scroll 0 0;
+  height: 1280px;
+  width: 6px;
+  left: 50% !important;
+}
+.num {
+  color: #fff;
+  font-size: 18px;
+}
+.list {
+  background: #f0f0f0 none repeat scroll 0 0;
+  padding: 20px;
+  width: 450px;
+}
+.list.l1, .list.l2, .list.l3, .list.l4, .list.l5 {
+  background: #e74c3c none repeat scroll 0 0;
+  height: 40px;
+  left: 47% !important;
+  line-height: 0;
+  text-align: center;
+  width: 75px;
+}
+.list.l1 {
+  top: -1% !important;
+}
+.list.l2 {
+  top: 25% !important;
+}
+.list.l3 {
+  top: 50% !important;
+}
+.list.l4 {
+  top: 75% !important;
+}
+.list.l5 {
+  bottom: -1% !important;
+  top: auto !important;
+}
+.list.d1 {
+  left: 0 !important;
+  right: auto !important;
+}
+.list.d2 {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.list.d1.t1 {
+  top: 6% !important;
+}
+.list.d2.t2 {
+  top: 31.5% !important;
+}
+.list.d1.t3 {
+  top: 56% !important;
+}
+.list.d2.t4 {
+  top: 81% !important;
+}
+.list.d1.t1::before, .list.d1.t3::before {
+  background: #ddd none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: -29.5%;
+  top: 41%;
+  width: 20px;
+}
+.list.d1.t1::after, .list.d1.t3::after {
+  background: #f0f0f0 none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 40px;
+  position: absolute;
+  right: -4.5%;
+  top: 36%;
+  transform: rotate(45deg);
+  width: 40px;
+}
+.list.d2.t4::before, .list.d2.t2::before {
+  background: #dddddd none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 20px;
+  left: -28.4%;
+  position: absolute;
+  top: 40%;
+  width: 20px;
+}
+.list.d2.t4::after, .list.d2.t2::after {
+  background: #f0f0f0 none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 40px;
+  left: -4.4%;
+  position: absolute;
+  top: 34%;
+  transform: rotate(45deg);
+  width: 40px;
+}
+.typane-left {
+  padding: 0 5px 0 11px;
+}
+.typane-right {
+  background: #f0f0f0 none repeat scroll 0 0;
+  padding-left: 14px;
+}
+.typane-left > h1, .typane-right > h1 {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+}
+.typane-left > p, .typane-right > p {
+  color: #545454;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+
+/* ==========================================================================
+   st-Clientsssay
+   ========================================================================== */
+section#st-clientssay {
+  background: rgba(0, 0, 0, 0) url("../img/slides-4.jpg") no-repeat scroll 0 0 / 100% 100%;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 70px 0;
+}
+.title-text.says > h1 {
+  color: #f2f2f2;
+  padding-bottom: 70px;
+}
+
+.media-object.img-circle.img-responsive {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+.comment > ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.pers > p {
+  color: #9e9e9e;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.media-body.aligner {
+  text-align: right;
+}
+.pers.client::before, .pers.consumers::before{
+  background: #fff none repeat scroll 0 0;
+  bottom: -15px;
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  transform: rotate(46deg);
+  width: 30px;
+}
+.pers.client::before {
+  right: 8%;
+}
+.pers.consumers::before {
+  left: 8%;
+}
+.comment-area {
+  padding: 0 5%;
+}
+.comment {
+  padding: 0 3% 8%;
+}
+.carousel-indicators {
+  bottom: -5%;
+}
+
+/* Common */
+.dets {
+  margin-top: 25px;
+  padding: 0 8px;
+}
+.pers {
+  background: #fff none repeat scroll 0 0;
+  padding: 20px 15px 25px;
+  position: relative;
+}
+.media-heading {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 6px;
+  text-transform: capitalize;
+}
+.dark {
+  color: #616161;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.media-body > p {
+  color: #616161;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+/* Common */
+.media-body {
+  padding: 25px 0 0;
+}
+.media-left {
+  float: left;
+  margin-right: 20px;
+}
+.media-right {
+  float: right;
+  margin-left: 20px;
+}
+.media.rightr {
+  margin-top: 70px;
+}
+.media-body.righter {
+  text-align: right;
+}
+.media-box {
+  padding: 0 6%;
+}
+
+
+
+/* ==========================================================================
+   st-pricing
+   ========================================================================== */
+section#st-pricing {
+  background: #fff none repeat scroll 0 0;
+  padding: 80px 0;
+}
+.title-text.price {
+  padding-bottom: 70px;
+}
+.table-cols .table {
+  padding: 0;
+  text-align: center;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  cursor: pointer;
+}
+/*.table-cols .table:hover, .table-cols .table:hover .ground-box li{
+  border-color: #E74C3C;
+}*/
+.table-cols .table:hover .top-box {
+  background: #E74C3C;
+}
+.table-cols .table:hover .tb-head > h1, .table-cols .table:hover .rate > h1, .table-cols .table:hover .dcpt > p{
+  color: #fff !important;
+}
+.downbol{
+  border-top: 0 !important;
+  border: 1px solid #efefef;
+}
+.top-box {
+  background: #e5e5e5 none repeat scroll 0 0;
+  border-bottom: 1px solid #efefef;
+  padding: 35px 20px 25px;
+  -webkit-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+.table.p2 .top-box {
+  background: #e74c3c none repeat scroll 0 0;
+}
+.table.p2 .tb-head > h1, .table.p2 .rate > h1, .table.p2 .dcpt > p{
+  color: #fff !important;
+}
+/*.gbutton{
+  background: #e74c3c none repeat scroll 0 0;
+  padding: 45px 0;
+}*/
+/*.btn.btn-danger.pro.bond {
+  background: #e5e5e5 none repeat scroll 0 0;
+}
+.btn.btn-danger.pro.bond:hover, .btn.btn-danger.pro.bond:active, .btn.btn-danger.pro.bond:focus {
+  
+}*/
+.table.p3 {
+  margin-bottom: 0;
+}
+
+.tb-head > h1, .rate > h1, .dcpt > p{
+  -webkit-transition: color 0.3s linear 0s;
+  -o-transition: color 0.3s linear 0s;
+  transition: color 0.3s linear 0s;
+}
+.tb-head > h1 {
+  color: #e74c3c;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.rate {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.rate > h1 {
+  color: #5c5c5c;
+  font-family: roboto;
+  font-size: 80px;
+  letter-spacing: -5px;
+  margin: 0;
+}
+.similer {
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.dcpt > p {
+  color: #5c5c5c;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+}
+
+.ground-box > ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.ground-box li {
+  border-bottom: 1px solid #efefef;
+  display: block;
+  padding: 20px 0;
+}
+.ground-box > ul > li > p {
+  color: #5c5c5c;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn.btn-danger.pro {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 16px 70px;
+  text-transform: uppercase;
+}
+.gbutton {
+  background: #e5e5e5 none repeat scroll 0 0;
+  padding: 45px 0;
+}
+
+
+
+/* ==========================================================================
+   St-Footer
+   ========================================================================== */
+footer#st-footer {
+  background: #f1efef none repeat scroll 0 0;
+  padding: 45px 0;
+}
+.hd-info {
+  margin-bottom: 40px;
+}
+.hd-info > h1 {
+  color: #e74c3c;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sunt > p {
+  color: #616161;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  padding-right: 20px;
+  text-transform: unset;
+}
+.sunt > ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+#cont p {
+  color: #616161;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+#cont p > i.fa {
+  color: #7b7b7b;
+  font-size: 24px;
+  margin-right: 25px;
+  padding-left: 5px;
+}
+#cont img {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.road {
+  line-height: 20px;
+}
+#line {
+  float: left;
+  width: 100%;
+}
+#line > li {
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 88px;
+}
+#line > li:last-child {
+  margin-right: 0;
+}
+#line a {
+  color: #7f7f7f;
+  font-size: 49px;
+  outline: none;
+  -webkit-transition: color 0.3s linear 0s;
+  -o-transition: color 0.3s linear 0s;
+  transition: color 0.3s linear 0s;
+}
+#line a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: color 0.3s linear 0s;
+  -o-transition: color 0.3s linear 0s;
+  transition: color 0.3s linear 0s;
+}
+
+/* ==========================================================================
+   
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Owl Carousel
+   ========================================================================== */
+#owl-demo .item{
+  display: block;
+  padding: 10px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+}
+ 
+//To move navigation buttons outside use these settings:
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 30px; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 30px;
+}
+
+/* Control */
+.owl-theme .owl-controls .owl-buttons div {
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+}
+.owl-next::after {
+  content: "";
+  font-family: fontawesome;
+  font-size: 238%;
+  line-height: 30px;
+  margin-left: -3px;
+  position: absolute;
+}
+.owl-prev::after {
+  content: "";
+  font-family: fontawesome;
+  font-size: 238%;
+  line-height: 30px;
+  margin-left: -7px;
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev, .owl-theme .owl-controls .owl-buttons .owl-next {
+  position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -5%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -5%;
+}
+.owl-item > .item > img {
+  height: 90px !important;
+  width: 80% !important;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
