@@ -560,6 +560,11 @@ section#st-clients {
   float: none !important;
   margin: 0 !important;
 }
+.media-left, .media-right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .media-object {
   width: 100%;
 }
@@ -735,6 +740,11 @@ section#st-clients {
   float: none !important;
   margin: 0 !important;
 }
+.media-left, .media-right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .media-object {
   width: 100%;
 }
@@ -783,7 +793,11 @@ section#st-clients {
   width: 80% !important;
   height:70px;
 }
-
+.media-left, .media-right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
 
 }
