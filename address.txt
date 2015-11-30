@@ -5,3 +5,5 @@ http://tusarnill.github.io/flatdesign/
 http://tusarnill.github.io/timeline/
 
 http://tusarnill.github.io/viraland/
+
+http://tusarnill.github.io/dashboard/
