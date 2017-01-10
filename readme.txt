@@ -1,5 +1,3 @@
-Here all of my special, crisp and all are modern flat design. you can see all the site with some given address into address.txt file.
-
-These all are really nice and awesome design. Hopefully you are enjoying.......
-
-Thank you!
+Modern flat design with bootstrap and javascript.
+In address.txt file, url for these templates. You can see a preview all of these themes.
+Thankyou.
